@@ -1,0 +1,3 @@
+proxmox_api_url          = "https://192.168.1.100:8006"
+proxmox_api_token_id     = "terraform-user@pve!token-id"
+proxmox_api_token_secret = "votre-token-secret-ici"

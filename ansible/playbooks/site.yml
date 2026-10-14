@@ -1,0 +1,7 @@
+---
+- name: Ping tous les serveurs du cluster
+  hosts: all
+  gather_facts: false
+  tasks:
+    - name: Tester la connexion SSH
+      ansible.builtin.ping:
